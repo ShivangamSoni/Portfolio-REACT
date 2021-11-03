@@ -56,9 +56,9 @@
   color: #333333;
 }
 
-.connect i,
-.socials i {
+.connect i {
   color: #858585;
+  margin-right: 0.2rem;
 }
 
 .socials {
@@ -66,4 +66,24 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #858585;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-auto-rows: minmax(350px, auto);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
 }

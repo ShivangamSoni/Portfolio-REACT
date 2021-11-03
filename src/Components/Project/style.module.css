@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background-color: hsl(0, 0%, 100%, 0.3);
+  background-color: hsl(0, 0%, 100%, 0.8);
   transform: scale(0);
   transition: transform 500ms ease-out;
 }
@@ -36,11 +36,15 @@
 .title {
   font-size: 1.2em;
   text-transform: uppercase;
-  text-decoration: 0.12em solid underline;
+  text-decoration: 0.12em solid underline #fca738;
+  text-align: center;
+  color: #105652;
 }
 
 .desc {
   text-align: justify;
+  padding: 0 1rem;
+  color: #105652;
 }
 
 .btnGroup {

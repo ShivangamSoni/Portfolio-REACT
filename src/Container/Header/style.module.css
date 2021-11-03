@@ -21,3 +21,16 @@
   text-transform: capitalize;
   color: #105652;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 670px) {
+  .hamburger {
+    cursor: pointer;
+    display: inline;
+    position: fixed;
+    right: 1rem;
+  }
+}

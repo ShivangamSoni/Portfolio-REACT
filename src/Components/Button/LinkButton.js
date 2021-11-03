@@ -5,7 +5,7 @@ const LinkButton = (props) => {
   return (
     <>
       {!props.type ? (
-        <a className={classes} download={props.download} href={props.href}>
+        <a className={classes} download={props.download} target={props.target} href={props.href}>
           {props.children}
         </a>
       ) : (

@@ -2,7 +2,7 @@ import LinkButton from "../Button/LinkButton";
 import style from "./style.module.css";
 
 const Project = (props) => {
-  const { title, desc, image } = props.project;
+  const { title, desc, image, live } = props.project;
 
   return (
     <div className={style.project}>
@@ -11,8 +11,9 @@ const Project = (props) => {
         <h4 className={style.title}>{title}</h4>
         <p className={style.desc}>{desc}</p>
         <div className={style.btnGroup}>
-          <LinkButton>Live Demo</LinkButton>
-          <LinkButton>Source Code</LinkButton>
+          <LinkButton color="green" href={live} target="_blank">
+            Live Demo
+          </LinkButton>
         </div>
       </div>
     </div>

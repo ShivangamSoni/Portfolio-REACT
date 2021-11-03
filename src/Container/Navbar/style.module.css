@@ -24,3 +24,28 @@
 .navLink:hover {
   color: #fca738;
 }
+
+@media screen and (max-width: 670px) {
+  .navbar {
+    position: fixed;
+    inset: 0;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: transform 500ms linear;
+  }
+
+  .navbar.active {
+    transform: translateX(0);
+  }
+
+  .navList {
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+  }
+
+  .navLink {
+    padding: 1rem 5rem;
+    outline: 0.2em solid currentColor;
+  }
+}

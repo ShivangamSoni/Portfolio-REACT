@@ -69,3 +69,20 @@
   aspect-ratio: 1;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 670px) {
+  .container {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 3rem;
+  }
+
+  .image {
+    justify-content: center;
+  }
+
+  .image img {
+    max-width: 60%;
+  }
+}

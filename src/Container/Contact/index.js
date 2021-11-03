@@ -15,19 +15,25 @@ const Contact = () => {
             </p>
 
             <p>
-              <i className="fal fa-mobile-android"></i>
+              <i className="fab fa-whatsapp"></i>
               <span>94183-01568</span>
             </p>
 
             <p>
-              <i className="fal fa-mobile-android-alt"></i>
+              <i className="fas fa-mobile-alt"></i>
               <span>98577-31099</span>
             </p>
           </div>
           <div className={style.socials}>
-            <i>LinkedIn</i>
-            <i>GitHub</i>
-            <i>CodePen</i>
+            <a href="https://www.linkedin.com/in/shivangam-soni/" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/ShivangamSoni/" aria-label="GitHub" target="_blank" rel="noreferrer">
+              <i className="fab fa-github-square"></i>
+            </a>
+            <a href="https://codepen.io/shivangamsoni" aria-label="CodePen" target="_blank" rel="noreferrer">
+              <i className="fab fa-codepen"></i>
+            </a>
           </div>
         </div>
         <ContactForm />
