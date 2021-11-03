@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fbf3e4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header h1 {
+  margin: 1.2rem 0;
+}
+
+.logo {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  text-transform: capitalize;
+  color: #105652;
+}

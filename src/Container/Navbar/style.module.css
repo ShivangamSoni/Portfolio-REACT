@@ -1,0 +1,26 @@
+.navbar {
+  flex: 0 0 30%;
+  padding: 1rem 0.5rem;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #424242;
+  transition: color 300ms linear;
+}
+
+.navLink:hover {
+  color: #fca738;
+}

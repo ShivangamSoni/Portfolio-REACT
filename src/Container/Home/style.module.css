@@ -1,0 +1,71 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #105652;
+  padding: 10rem 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/wave.svg");
+  background-repeat: no-repeat;
+  transform: scaleX(1.5);
+  background-position: bottom left;
+}
+
+.details {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.details h2 {
+  font-weight: 500;
+  color: #fca738;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.details p {
+  font-weight: 700;
+  color: #fbf3e4;
+  font-size: 1.5rem;
+}
+
+.hire span {
+  display: block;
+  font-weight: 300;
+  color: #fbf3e4;
+  margin-bottom: 0.5rem;
+}
+
+.btnGroup a + a {
+  margin-left: 2em;
+}
+
+.image {
+  flex: 0 0 20%;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  max-width: 80%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

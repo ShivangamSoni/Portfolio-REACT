@@ -1,0 +1,31 @@
+.container {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem gray;
+}
+
+.title {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #105652;
+  font-weight: 500;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.skill {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill img {
+  max-height: 64px;
+  max-width: 100%;
+}

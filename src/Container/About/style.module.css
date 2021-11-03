@@ -1,0 +1,44 @@
+.about {
+  width: 100%;
+  padding: 12rem 0 5rem;
+  display: flex;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 0.5rem gray;
+}
+
+.aboutDetails {
+  line-height: 1.5;
+}
+
+.aboutDetails h3 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.4em;
+  position: relative;
+  color: #105652;
+}
+
+.aboutDetails h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 0.3em;
+  width: 120%;
+  background-color: #fca738;
+}
+
+.aboutDetails p {
+  text-align: justify;
+  margin-top: 1.2em;
+  color: #105652;
+}
