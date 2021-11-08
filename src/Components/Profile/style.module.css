@@ -1,0 +1,41 @@
+.profile {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 1rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0 0.3rem rgba(0, 0, 0, 0.2), 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+  width: 80%;
+  border-radius: 100%;
+}
+
+.socials {
+  background: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  box-shadow: 0.3rem 0 0.3rem rgba(0, 0, 0, 0.2), 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+.socials a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 500ms linear;
+}
+
+.socials a:hover {
+  color: #09bead;
+  transform: scale(1.2);
+}

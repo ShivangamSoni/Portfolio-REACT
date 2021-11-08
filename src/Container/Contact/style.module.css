@@ -1,26 +1,6 @@
 .contact {
-  padding: 2rem 1rem 1rem;
+  padding: 2rem 0 1rem;
   text-align: center;
-}
-
-.contact h3 {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1.4em;
-  position: relative;
-  color: #105652;
-  margin-bottom: 1rem;
-}
-
-.contact h3::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 0.3em;
-  width: 120%;
-  background-color: #fca738;
 }
 
 .container {
@@ -35,7 +15,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #fff;
   padding: 0.5rem;
 }
@@ -47,7 +27,7 @@
 }
 
 .connect {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   text-align: left;
 }
 
@@ -59,22 +39,6 @@
 .connect i {
   color: #858585;
   margin-right: 0.2rem;
-}
-
-.socials {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.socials a {
-  text-decoration: none;
-  color: #858585;
-}
-
-.socials a:hover {
-  transform: scale(1.2);
 }
 
 @media screen and (max-width: 670px) {

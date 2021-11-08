@@ -1,3 +1,4 @@
+import SectionHeading from "../../Components/SectionHeading";
 import Skills from "../../Components/SkillsCard";
 import style from "./style.module.css";
 
@@ -6,7 +7,7 @@ const About = () => {
     <div className={style.about} id="about">
       <div className={style.container}>
         <div className={style.aboutDetails}>
-          <h3 className={style.title}>About Me</h3>
+          <SectionHeading>About Me</SectionHeading>
           <div className={style.details}>
             <p>
               I'm an Aspiring Web Developer who enjoys writing Code. I have strong Technical Skills &amp; an Academic Background in Computer Science Engineering. I'm interested in

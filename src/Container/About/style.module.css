@@ -11,30 +11,11 @@
   border-radius: 1rem;
   padding: 1rem;
   background-color: #fff;
-  box-shadow: 0.1rem 0.1rem 0.5rem gray;
+  box-shadow: 0.3rem 0 0.3rem rgba(0, 0, 0, 0.2), 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1), 0 0 0.2rem rgba(0, 0, 0, 0.3);
 }
 
 .aboutDetails {
   line-height: 1.5;
-}
-
-.aboutDetails h3 {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1.4em;
-  position: relative;
-  color: #105652;
-}
-
-.aboutDetails h3::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 0.3em;
-  width: 120%;
-  background-color: #fca738;
 }
 
 .aboutDetails p {

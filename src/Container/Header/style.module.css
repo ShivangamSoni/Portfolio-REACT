@@ -27,6 +27,11 @@
 }
 
 @media screen and (max-width: 670px) {
+  .header {
+    justify-content: space-between;
+    padding: 0 0.5rem;
+  }
+
   .hamburger {
     cursor: pointer;
     display: inline;

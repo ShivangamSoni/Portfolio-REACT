@@ -1,10 +1,12 @@
 import style from "./app.module.css";
+
 import Header from "./Container/Header";
 import Home from "./Container/Home/index";
 import About from "./Container/About";
 import Portfolio from "./Container/Portfolio";
-import Footer from "./Container/Footer";
+import Resume from "./Container/Resume";
 import Contact from "./Container/Contact";
+import Footer from "./Container/Footer";
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
       <main className={style.main}>
         <About />
         <Portfolio />
+        <Resume />
         <Contact />
       </main>
       <Footer />

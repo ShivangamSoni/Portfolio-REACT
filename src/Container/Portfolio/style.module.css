@@ -1,6 +1,10 @@
-.projects {
+.container {
   width: 100%;
   padding: 7rem 1rem 5rem;
+  text-align: center;
+}
+
+.projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;

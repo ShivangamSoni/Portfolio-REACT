@@ -1,0 +1,115 @@
+.resume {
+  width: 100%;
+  padding: 8rem 0 5rem;
+  text-align: center;
+  color: #105652;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  column-gap: 1rem;
+}
+
+.section {
+  text-align: left;
+}
+
+.section + .section {
+  margin-top: 1rem;
+}
+
+.section h3 {
+  border-bottom: 0.1rem solid #c2c2c2;
+  margin-bottom: 0.5rem;
+}
+
+.educations {
+  width: 98%;
+  margin-left: auto;
+  border-left: 0.2rem dotted #09bcab;
+}
+
+.education {
+  margin-left: -0.2rem;
+  padding-left: 1rem;
+  border-left: 0.2rem solid #09bcab;
+  position: relative;
+}
+
+.education + .education {
+  margin-top: 1rem;
+}
+
+.education::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -0.6rem;
+  width: 1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #09bcab;
+}
+
+.desc {
+  color: #333333;
+}
+
+.skill {
+  width: 90%;
+  margin: auto;
+  color: #333333;
+  padding: 1rem;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  height: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+
+.bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background: #fca738;
+}
+
+.skill:nth-of-type(1) .bar::after {
+  width: 90%;
+}
+
+.skill:nth-of-type(2) .bar::after {
+  width: 90%;
+}
+
+.skill:nth-of-type(3) .bar::after {
+  width: 80%;
+}
+
+.skill:nth-of-type(4) .bar::after {
+  width: 70%;
+}
+
+.skill:nth-of-type(5) .bar::after {
+  width: 70%;
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 1rem;
+  }
+
+  .details {
+    order: 2;
+  }
+}
