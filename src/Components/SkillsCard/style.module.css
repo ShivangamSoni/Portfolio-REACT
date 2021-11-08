@@ -29,3 +29,9 @@
   max-height: 64px;
   max-width: 100%;
 }
+
+@media screen and (max-width: 670px) {
+  .skills {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}

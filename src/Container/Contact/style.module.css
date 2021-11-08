@@ -79,11 +79,8 @@
 
 @media screen and (max-width: 670px) {
   .container {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-auto-rows: minmax(350px, auto);
-    border-radius: 1rem;
-    padding: 1rem;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1rem 0.3rem;
   }
 }
