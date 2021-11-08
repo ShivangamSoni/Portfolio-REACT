@@ -28,11 +28,11 @@ const Navbar = (props) => {
             Portfolio
           </HashLink>
         </li>
-        <li>
+        {/* <li>
           <HashLink onClick={close} smooth to="#resume" className={style.navLink}>
             Resume
           </HashLink>
-        </li>
+        </li> */}
         <li>
           <HashLink onClick={close} smooth to="#contact" className={style.navLink}>
             Contact
