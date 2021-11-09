@@ -45,10 +45,10 @@ const Skills = () => {
           <span>Linux</span>
         </div>
 
-        <div className={style.skill}>
+        {/* <div className={style.skill}>
           <img alt="Googling" src={require("../../Assets/icons/google.svg").default} />
           <span>Googling</span>
-        </div>
+        </div> */}
 
         <div className={style.skill}>
           <img alt="AWS" src={require("../../Assets/icons/aws.svg").default} />
