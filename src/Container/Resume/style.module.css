@@ -91,15 +91,15 @@
 }
 
 .skill:nth-of-type(3) .bar::after {
-  width: 80%;
+  width: 85%;
 }
 
 .skill:nth-of-type(4) .bar::after {
-  width: 70%;
+  width: 80%;
 }
 
 .skill:nth-of-type(5) .bar::after {
-  width: 70%;
+  width: 50%;
 }
 
 @media screen and (max-width: 670px) {
