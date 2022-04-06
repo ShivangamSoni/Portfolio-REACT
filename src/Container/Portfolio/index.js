@@ -5,8 +5,8 @@ import style from "./style.module.css";
 const projectData = [
   {
     id: 7,
-    title: "Blog Web Site Front-End",
-    desc: "A Blog App Created created using REACT, react-router & Context API",
+    title: "Blog Web Site",
+    desc: "A Blog App Created created using REACT, REDUX, Node & Express",
     image: require("../../Assets/Projects/BlogReact.png").default,
     live: "https://blog-react-shivangam-soni.netlify.app/",
   },
