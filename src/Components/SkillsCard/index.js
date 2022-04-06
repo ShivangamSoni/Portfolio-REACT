@@ -29,21 +29,36 @@ const Skills = () => {
     },
     {
       id: 6,
-      label: "SASS",
+      label: "SASS/SCSS",
       image: require("../../Assets/icons/sass.svg").default,
     },
     {
       id: 7,
+      label: "Node.JS",
+      image: require("../../Assets/icons/nodejs.svg").default,
+    },
+    {
+      id: 8,
+      label: "Express.JS",
+      image: require("../../Assets/icons/express.svg").default,
+    },
+    {
+      id: 9,
+      label: "MongoDB",
+      image: require("../../Assets/icons/mongodb.svg").default,
+    },
+    {
+      id: 10,
       label: "Git",
       image: require("../../Assets/icons/git.svg").default,
     },
     {
-      id: 8,
+      id: 11,
       label: "GitHub",
       image: require("../../Assets/icons/github.svg").default,
     },
     {
-      id: 9,
+      id: 12,
       label: "Linux Basics",
       image: require("../../Assets/icons/linux.svg").default,
     },

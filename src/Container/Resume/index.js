@@ -68,6 +68,21 @@ const Resume = () => {
             </div>
 
             <div className={style.skill}>
+              <h4>Node</h4>
+              <span className={style.bar}></span>
+            </div>
+
+            <div className={style.skill}>
+              <h4>Express</h4>
+              <span className={style.bar}></span>
+            </div>
+
+            <div className={style.skill}>
+              <h4>MongoDB</h4>
+              <span className={style.bar}></span>
+            </div>
+
+            <div className={style.skill}>
               <h4>Git</h4>
               <span className={style.bar}></span>
             </div>
